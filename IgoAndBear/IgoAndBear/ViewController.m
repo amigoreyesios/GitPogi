@@ -30,6 +30,7 @@
     NSLog(@"Hello Renz kamusta malamig ba sa canada");
     NSLog(@"Pasale naman ako dito... kamusta kayo ni Sonia sa Ontario? ilan na?");
     NSLog(@"Kamusta na sa america malamig din ba dyan ???");
+    NSLog(@"19 na anak namin ahahah joke lang ");
     
 }
 
