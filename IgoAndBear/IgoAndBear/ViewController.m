@@ -28,6 +28,7 @@
     
     NSLog(@"HEllo go");
     NSLog(@"Hello Renz kamusta malamig ba sa canada");
+    NSLog(@"Pasale naman ako dito... kamusta kayo ni Sonia sa Ontario? ilan na?")
     
 }
 
