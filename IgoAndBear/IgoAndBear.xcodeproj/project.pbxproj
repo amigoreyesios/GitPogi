@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8483159816D26F9900070CCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483159716D26F9900070CCC /* UIKit.framework */; };
+		8483159A16D26F9900070CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483159916D26F9900070CCC /* Foundation.framework */; };
+		8483159C16D26F9900070CCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483159B16D26F9900070CCC /* CoreGraphics.framework */; };
+		848315A216D26F9900070CCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848315A016D26F9900070CCC /* InfoPlist.strings */; };
+		848315A416D26F9900070CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848315A316D26F9900070CCC /* main.m */; };
+		848315A816D26F9900070CCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848315A716D26F9900070CCC /* AppDelegate.m */; };
+		848315AA16D26F9900070CCC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 848315A916D26F9900070CCC /* Default.png */; };
+		848315AC16D26F9900070CCC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848315AB16D26F9900070CCC /* Default@2x.png */; };
+		848315AE16D26F9900070CCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848315AD16D26F9900070CCC /* Default-568h@2x.png */; };
+		848315B116D26F9900070CCC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848315AF16D26F9900070CCC /* MainStoryboard.storyboard */; };
+		848315B416D26F9900070CCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848315B316D26F9900070CCC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8483159416D26F9900070CCC /* IgoAndBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IgoAndBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483159716D26F9900070CCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8483159916D26F9900070CCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8483159B16D26F9900070CCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8483159F16D26F9900070CCC /* IgoAndBear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IgoAndBear-Info.plist"; sourceTree = "<group>"; };
+		848315A116D26F9900070CCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		848315A316D26F9900070CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848315A516D26F9900070CCC /* IgoAndBear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IgoAndBear-Prefix.pch"; sourceTree = "<group>"; };
+		848315A616D26F9900070CCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		848315A716D26F9900070CCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		848315A916D26F9900070CCC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		848315AB16D26F9900070CCC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		848315AD16D26F9900070CCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		848315B016D26F9900070CCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		848315B216D26F9900070CCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		848315B316D26F9900070CCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8483159116D26F9900070CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8483159816D26F9900070CCC /* UIKit.framework in Frameworks */,
+				8483159A16D26F9900070CCC /* Foundation.framework in Frameworks */,
+				8483159C16D26F9900070CCC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8483158B16D26F9900070CCC = {
+			isa = PBXGroup;
+			children = (
+				8483159D16D26F9900070CCC /* IgoAndBear */,
+				8483159616D26F9900070CCC /* Frameworks */,
+				8483159516D26F9900070CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8483159516D26F9900070CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8483159416D26F9900070CCC /* IgoAndBear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8483159616D26F9900070CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8483159716D26F9900070CCC /* UIKit.framework */,
+				8483159916D26F9900070CCC /* Foundation.framework */,
+				8483159B16D26F9900070CCC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8483159D16D26F9900070CCC /* IgoAndBear */ = {
+			isa = PBXGroup;
+			children = (
+				848315A616D26F9900070CCC /* AppDelegate.h */,
+				848315A716D26F9900070CCC /* AppDelegate.m */,
+				848315AF16D26F9900070CCC /* MainStoryboard.storyboard */,
+				848315B216D26F9900070CCC /* ViewController.h */,
+				848315B316D26F9900070CCC /* ViewController.m */,
+				8483159E16D26F9900070CCC /* Supporting Files */,
+			);
+			path = IgoAndBear;
+			sourceTree = "<group>";
+		};
+		8483159E16D26F9900070CCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8483159F16D26F9900070CCC /* IgoAndBear-Info.plist */,
+				848315A016D26F9900070CCC /* InfoPlist.strings */,
+				848315A316D26F9900070CCC /* main.m */,
+				848315A516D26F9900070CCC /* IgoAndBear-Prefix.pch */,
+				848315A916D26F9900070CCC /* Default.png */,
+				848315AB16D26F9900070CCC /* Default@2x.png */,
+				848315AD16D26F9900070CCC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8483159316D26F9900070CCC /* IgoAndBear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848315B716D26F9900070CCC /* Build configuration list for PBXNativeTarget "IgoAndBear" */;
+			buildPhases = (
+				8483159016D26F9900070CCC /* Sources */,
+				8483159116D26F9900070CCC /* Frameworks */,
+				8483159216D26F9900070CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IgoAndBear;
+			productName = IgoAndBear;
+			productReference = 8483159416D26F9900070CCC /* IgoAndBear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8483158C16D26F9900070CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Amigo;
+			};
+			buildConfigurationList = 8483158F16D26F9900070CCC /* Build configuration list for PBXProject "IgoAndBear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8483158B16D26F9900070CCC;
+			productRefGroup = 8483159516D26F9900070CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8483159316D26F9900070CCC /* IgoAndBear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8483159216D26F9900070CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848315A216D26F9900070CCC /* InfoPlist.strings in Resources */,
+				848315AA16D26F9900070CCC /* Default.png in Resources */,
+				848315AC16D26F9900070CCC /* Default@2x.png in Resources */,
+				848315AE16D26F9900070CCC /* Default-568h@2x.png in Resources */,
+				848315B116D26F9900070CCC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8483159016D26F9900070CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848315A416D26F9900070CCC /* main.m in Sources */,
+				848315A816D26F9900070CCC /* AppDelegate.m in Sources */,
+				848315B416D26F9900070CCC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848315A016D26F9900070CCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848315A116D26F9900070CCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		848315AF16D26F9900070CCC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848315B016D26F9900070CCC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848315B516D26F9900070CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		848315B616D26F9900070CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848315B816D26F9900070CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IgoAndBear/IgoAndBear-Prefix.pch";
+				INFOPLIST_FILE = "IgoAndBear/IgoAndBear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		848315B916D26F9900070CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IgoAndBear/IgoAndBear-Prefix.pch";
+				INFOPLIST_FILE = "IgoAndBear/IgoAndBear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8483158F16D26F9900070CCC /* Build configuration list for PBXProject "IgoAndBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848315B516D26F9900070CCC /* Debug */,
+				848315B616D26F9900070CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848315B716D26F9900070CCC /* Build configuration list for PBXNativeTarget "IgoAndBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848315B816D26F9900070CCC /* Debug */,
+				848315B916D26F9900070CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8483158C16D26F9900070CCC /* Project object */;
+}
