@@ -27,6 +27,8 @@
     
     
     NSLog(@"HEllo go");
+    NSLog(@"Hello Renz kamusta malamig ba sa canada");
+    
 }
 
 @end
